@@ -140,4 +140,8 @@ public final class OAuth20AccessTokenController extends AbstractController {
         }
         return true;
     }
+
+    public static void setLogger(final Logger logger) {
+        LOGGER = logger;
+    }
 }

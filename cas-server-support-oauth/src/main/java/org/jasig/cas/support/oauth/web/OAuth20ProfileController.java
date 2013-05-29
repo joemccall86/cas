@@ -111,4 +111,8 @@ public final class OAuth20ProfileController extends AbstractController {
             response.flushBuffer();
         }
     }
+
+    public static void setLogger(final Logger logger) {
+        LOGGER = logger;
+    }
 }
